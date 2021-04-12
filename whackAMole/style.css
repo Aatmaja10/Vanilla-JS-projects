@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    background-color: rgb(179, 138, 84);
+    width:450px;
+    height: 220px;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: url("hammer.png"),auto;
+}
+img{
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    border-radius: 50%;  
+}
+h2,h3{
+    padding: 5px;
+    text-align: center;
+}
+.show{
+    visibility: hidden;
+}

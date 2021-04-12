@@ -1,0 +1,25 @@
+.firstrow, .secondrow, .thirdrow, .fourthrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:15px;
+    width: 500px;
+    margin: 0 auto;
+}
+.btn, .operator{
+    text-align: center;
+    background-color: rgb(83, 83, 83);
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 105px;
+}
+input{
+    width:500px;
+    height:60px;
+    margin-bottom: 20px;
+    text-align: right;
+}

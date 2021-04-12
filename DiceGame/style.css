@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.instructions > ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+    color: rgb(48, 48, 48);
+}
+button{
+    border: none;
+    height: 80px;
+    width:190px;
+    font-family: 'Abril Fatface', cursive;;
+    font-size: 23px;
+    outline: none; 
+}
+button:hover{
+ background-image: linear-gradient(rgb(16, 16, 77),rgb(250, 166, 180));
+}
+.button{
+    text-align: center;
+    line-height: 80px;
+    margin-top: 70px;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+}

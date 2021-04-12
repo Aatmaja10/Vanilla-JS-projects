@@ -1,0 +1,37 @@
+h1,div{
+    text-align: center;
+}
+div{
+    font-size:18px;
+}
+   
+.lorem-form{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+input{
+    height:30px;
+    border: none;
+    background-color: rgba(71, 71, 71, 0.959);
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+::placeholder{
+    color: white;
+}
+button{
+    background-color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.para{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    width:60vw;
+    margin: 0 auto;
+}

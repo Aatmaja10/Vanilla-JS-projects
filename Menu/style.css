@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+main{
+    padding: 50px;
+}
+.title>h2{
+    text-align: center;
+}
+/* THE WHOLE MENU WITH THE IMG */
+.menuItem{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:15px;
+    width: 40vw;
+}
+.menuItem>img{
+    height:250px;
+    margin: 0 auto;
+}
+.menuContainer{
+    margin: 0 auto;
+    text-align: center;
+    padding:25px;
+    background-color: rgba(212, 212, 212, 0.5);
+}
+.menuName, .price{
+    font-family: 'Newsreader', serif;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.description{
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 22px;
+}
+hr{
+    margin-top: 7px;
+}
+/* STYLING THE BUTTONS */
+.buttons{
+    text-align: center;
+}
+button{
+    height:40px;
+    width:150px;
+    border:1px solid grey;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(19, 19, 19);
+    margin-top: 15px;
+    background-color: white;
+    outline:none;
+}
+button:focus{
+    background-color: rgb(177, 92, 67);
+    color: white;
+}

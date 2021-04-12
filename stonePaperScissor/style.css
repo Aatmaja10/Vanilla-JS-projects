@@ -1,0 +1,23 @@
+.main{
+    text-align: center;
+}
+.main > button{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border: 1px solid black;
+    font-family: 'Fraunces', serif;
+    margin-top: 10%;
+    background-color: white;
+    color: rgb(15, 15, 15);
+    outline: none;
+}
+button:hover{
+    background-color: rgb(43, 43, 43);
+    color: rgb(199, 199, 199);
+}
+.main > .players{
+    font-size: 30px;
+    padding: 35px;
+    font-family: 'Merriweather', serif;
+}

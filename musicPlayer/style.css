@@ -1,0 +1,225 @@
+.player-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -17px;
+    height: 50px;
+}
+
+#next {
+    background-position: center;
+    transition: background 0.5s;
+    border-radius: 50%;
+    padding: 10px;
+
+  }
+#next:hover {
+    background: rgb(224, 134, 74) radial-gradient(circle, transparent 1%, rgb(250, 194, 157) 1%) center/15000%;
+    box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(105, 105, 105, 0.25) inset;
+  }
+#next:active {
+    background-size: 100%;
+    transition: background 0s;
+  }
+
+#previous {
+    background-position: center;
+    transition: background 0.5s;
+    border-radius: 50%;
+    padding: 10px;
+  }
+#previous:hover {
+    background: rgb(224, 134, 74) radial-gradient(circle, transparent 1%, rgb(250, 194, 157) 1%) center/15000%;
+    box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(105, 105, 105, 0.25) inset;
+  }
+#previous:active {
+    background-size: 100%;
+    transition: background 0s;
+  }
+
+.pause-play>img{
+    height:20px;
+    z-index: 1;
+    position: relative;
+    padding: 10px;
+}
+
+#play{
+    position: absolute;
+    z-index: 0;
+    margin-left: 10px;
+    background: rgb(224, 134, 74) radial-gradient(circle, transparent 1%, rgb(250, 194, 157) 1%) center/15000%;
+    box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(105, 105, 105, 0.25) inset;
+    border-radius: 50%;
+   
+}
+
+#play:hover{
+    background: rgb(224, 134, 74) radial-gradient(circle, transparent 1%, rgb(250, 194, 157) 1%) center/15000%;
+    box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(105, 105, 105, 0.25) inset;
+    border-radius: 50%;
+}
+#pause{
+    visibility: hidden;
+    margin-left: 10px;
+    background: rgb(224, 134, 74) radial-gradient(circle, transparent 1%, rgb(250, 194, 157) 1%) center/15000%;
+    box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(105, 105, 105, 0.25) inset;
+    border-radius: 50%;
+}
+
+#play:hover{
+    background: rgb(224, 134, 74) radial-gradient(circle, transparent 1%, rgb(250, 194, 157) 1%) center/15000%;
+    box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(105, 105, 105, 0.25) inset;
+    border-radius: 50%;
+}
+
+#previous{
+    right: 57px;   
+}
+#next{
+    left: 72px;
+}
+
+.photo-container{
+    display: flex;
+    justify-content: center;
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    margin-top: 65px;
+    background-color: brown;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-container>img{
+    margin-bottom: 400px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    /* height:33vh; */
+    /* margin-top: 190px; */
+}
+
+.visibility{
+    visibility:"hidden";
+}
+
+.gif-container{
+   display: flex;
+   justify-content: center;
+   height:5px;
+}
+
+.gif-container>iframe{
+    margin-top: 15px;
+}
+
+h2,p{
+    font-family: 'Abril Fatface', cursive;
+    margin-top:10px;
+    padding: 5px;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.progress-container{
+    background-color: #fff;
+    border-radius: 5px;
+    border:1px solid rgb(230,170,126);
+    margin: auto;
+    width: 30%;
+}
+
+.progress{
+    background-color:rgb(230,170,126);
+    width: 0px;
+    height:20px;
+    border-radius: 5px;
+    transition: width 0.1s linear;
+}
+
+.timeStap{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+@media all and (max-width: 599px) and (min-width: 100px){
+    h2,p{
+        font-family: 'Abril Fatface', cursive;
+        margin-top:60px;
+        padding: 5px;
+        font-weight: 100;
+        font-size: 30px;
+    }
+    .photo-container{
+        display: flex;
+        justify-content: center;
+        height:200px;
+        width:200px;
+        border-radius: 50%;
+        margin-top: 125px;
+        background-color: brown;
+    }
+    .gif-container>iframe{
+        margin-top: 60px;
+    }
+    #previous{
+        right: 27px;   
+    }
+    #next{
+        left: 36px;
+    }
+    .player-container{
+        margin: 0 auto;
+        border-radius: 15px;
+        margin-top: -10px;
+        border:0.5px solid rgb(207, 132, 79);
+        height: 50px;
+        width:77vw;
+    }
+    .timeStap{
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        margin-top:0px;
+    }
+    .progress{
+        background-color:rgb(230,170,126);
+        height:10px;
+        width: 0px;
+        border-radius: 5px;
+        transition: width 0.1s linear;
+    }
+    .progress-container{
+        background-color: #fff;
+        border-radius: 5px;
+        border:1px solid rgb(230,170,126);
+        margin: auto;
+        width: 70%;
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+}

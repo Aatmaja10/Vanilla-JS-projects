@@ -1,2 +1,2 @@
 # Vanilla-JS-projects
-Basic Projects made with HTML, CSS and Vanilla JS
+Collection of Projects made with HTML, CSS and Vanilla JS
